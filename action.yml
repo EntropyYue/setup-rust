@@ -8,7 +8,7 @@ inputs:
     description: 'Comma-separated list of global binaries to install into Cargo.'
   cache:
     description: 'Toggle caching of ~/.cargo/registry and /target/<cache-target> directories.'
-    default: 'true'
+    default: 'false'
   cache-base:
     description:
       'Base branch/ref to save a warmup cache on. Other branches/refs will restore from this base.'
